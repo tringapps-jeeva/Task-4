@@ -1,0 +1,268 @@
+
+.card_container {
+  width: 250px;
+  margin: 5% 15%;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  border-radius: 5%;
+}
+
+.sumbit
+{
+   background-color: rgb(128, 255, 212,0.9);
+   font-weight: bold;
+   
+}
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addinputs {
+  background-color: rgb(220, 231, 227);
+  padding: 2%;
+  margin-bottom: 5px;
+}
+
+.addinputs1 {
+  background-color: rgb(166, 218, 200);
+  padding: 2%;
+  margin-bottom: 5px;
+}
+
+.addinputs2 {
+  background-color: rgb(188, 241, 224);
+  padding: 2%;
+  margin-bottom: 5px;
+}
+
+.productshown {
+  /* background-color: rgb(206, 200, 200); */
+  padding: 2%;
+}
+
+.productshown1 {
+  /* background-color: rgb(206, 200, 200); */
+  padding: 2%;
+}
+
+.productshown2 {
+  /* background-color: rgb(206, 200, 200); */
+  padding: 2%;
+}
+
+.addinputs input {
+  margin-left: 1%;
+  width: 20%;
+  height: 30px;
+}
+
+.addinputs1 input {
+  margin-left: 1%;
+  width: 20%;
+  height: 30px;
+}
+
+.addinputs2 input {
+  margin-left: 1%;
+  width: 20%;
+  height: 30px;
+}
+
+.productshown input {
+  width: 20%;
+  margin: 5px;
+  height: 30px;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  text-align: center;
+  background-color: gainsboro;
+  border-radius: 5px;
+  border-bottom: 2px solid black;
+}
+
+.productshown1 input {
+  width: 20%;
+  margin: 5px;
+  height: 30px;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  text-align: center;
+  background-color: gainsboro;
+  border-radius: 5px;
+  border-bottom: 2px solid black;
+}
+
+.productshown2 input {
+  width: 20%;
+  margin: 5px;
+  height: 30px;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  text-align: center;
+  background-color: gainsboro;
+  border-radius: 5px;
+  border-bottom: 2px solid black;
+}
+
+input[type="button"] {
+  width: 50px;
+  background-color: rgb(235, 188, 173);
+  margin-left: 15px;
+}
+
+select {
+  width: 20%;
+  margin-left: 2%;
+  height: 35px;
+}
+
+#add {
+  width: 50px;
+  background-color: rgb(235, 188, 173);
+  margin-left: 15px;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  text-align: center;
+  border-radius: 5px;
+  border-bottom: 2px solid black;
+  height: 30px;
+  }
+
+.buttoncontainer {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.productsbutton {
+  width: 90%;
+  height: auto;
+  margin: 15px;
+  align-self: center;
+}
+
+table {
+  width: 100%;
+  height: auto;
+  border-spacing: 20px;
+  /* background-color: rgb(209, 147, 147); */
+}
+
+th {
+  text-align: center;
+  background-color: rgb(223, 187, 187);
+  border-radius: 15px;
+}
+
+td {
+  text-align: center;
+  background-color: rgb(223, 187, 187,0.10);
+  border-radius: 20px;
+  /* border: 5px solid black; */
+  /* box-shadow: 5px 10px rgb(223, 187, 187); */
+}
+
+.btn {
+  width: 70%;
+  margin: 2%;
+  background-color: rgb(223, 187, 187);
+  border: none;
+  font-weight: bold;
+  font-size:100%;
+}
+
+@media screen and (max-width:768px) {
+  
+  .maincontainer
+  {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  table
+  {
+    width: 100%;
+  }
+  .card_container {
+    width: 70%;
+    font-size: 50%;
+    height: 20%;
+    text-align: center;
+    padding: 10%;
+    border-radius: 5%;
+  }
+  td
+  {
+    text-align: left;
+  }
+  .buttoncontainer
+  {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+   .addinputs
+  {
+    width: 80%;
+    margin:10%;
+  }
+  .addinputs input
+  {
+     width: 15%;
+     height: 15px; 
+  }
+  .addinputs1
+  {
+    width: 80%;
+    margin:10%;
+  }
+  .addinputs1 input
+  {
+     width: 15%;
+     height: 15px; 
+  }
+  .addinputs2
+  {
+    width: 80%;
+    margin:10%;
+  }
+  .addinputs2 input
+  {
+     width: 15%;
+     height: 15px; 
+  }
+  select
+  {
+    width: 20%;
+    height: 5%;
+  }
+#add {
+  width: 10%;
+  height: 2%;
+} 
+.sumbit
+{
+  margin-left: 15%;
+}
+.productshown input {
+  width: 15%;
+  margin: 2%;
+}
+.productshown1 input {
+  width: 15%;
+  margin: 2%;
+}
+.productshown2 input {
+  width: 15%;
+  margin: 2%;
+}
+}
